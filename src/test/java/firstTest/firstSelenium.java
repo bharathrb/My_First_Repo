@@ -15,7 +15,6 @@ public class firstSelenium {
 		
 		driver.get("https:\\www.google.com");
 		
-		driver.close();
 	}
 
 }
