@@ -1,8 +1,12 @@
 package firstTest;
 
+import org.testng.annotations.Test;
+
 public class firstJava {
 	
-	public static void main(String args[]) {
+	@Test
+	public void Step1() {
+		
 	System.out.println("first Java program executed");
 	}
 }
