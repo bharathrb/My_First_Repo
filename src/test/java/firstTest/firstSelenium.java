@@ -44,6 +44,8 @@ public class firstSelenium {
 		DataFormatter d = new DataFormatter();
 		String Username = d.formatCellValue(c);
 		
+		Src.close();
+		
 		driver.findElement(By.id("form1")).sendKeys(Username);
 		
 		System.out.println(driver.findElement(By.id("proceed-button")).getText());
